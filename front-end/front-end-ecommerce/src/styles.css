@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgb(116, 202, 241);
+}
+.menu-bar{ 
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.menu-bar ul{
+    list-style-type: none;
+}
+.menu-bar li{
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.menu-bar li a{
+    float: left;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.menu-bar li a:hover{
+    background-color: aqua;
+}
+
+.search{
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+.search button{
+    border-radius: 30px;
+}
+.search-text{
+    padding: 20px;
+    text-align: center;
+}
+
+#nav-bar-login{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: blueviolet;
+}
+#nav-bar-login .login{
+    position: relative;
+    right: -80%;
+    height: 100%;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+}
+#nav-bar-login .login a{
+    text-align: center;
+}
+
+.main{
+    position: fixed;
+    background-color: brown;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
